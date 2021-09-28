@@ -4,11 +4,10 @@ import ContactCard from "./ContactCard";
 import { useState, useEffect } from "react";
 
 const url = "http://localhost:5001/contacts";
-const entryUrl = "http://localhost:5001/";
 
 function App() {
 	const [contact, setContact] = useState([]);
-	const [message, setMessage] = useState("Contact List");
+	// const [message, setMessage] = useState("Contact List");
 
 	const welcome = async () => {
 		try {
